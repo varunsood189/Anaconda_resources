@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Create new environemnt
+conda create -n yourenvname python=x.x anaconda
+------------------------------------------------------------
+Conda list the environments
+conda list
+------------------------------------------------------------
+Remove Environment
+conda remove -n myenv 
+------------------------------------------------------------
+Info on enviroments
+conda info --envs
+------------------------------------------------------------
+
