@@ -8,7 +8,9 @@ conda list
 Remove Environment
 conda remove -n myenv 
 ------------------------------------------------------------
-Info on enviroments
+Info on all the enviroments
 conda info --envs
 ------------------------------------------------------------
-
+Activate an environment
+activate myenv 
+------------------------------------------------------------
