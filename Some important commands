@@ -1,3 +1,4 @@
+Conda is a package and environment Management tool:
 ------------------------------------------------------------
 Create new environemnt
 conda create -n yourenvname python=x.x anaconda
@@ -14,3 +15,29 @@ conda info --envs
 Activate an environment
 activate myenv 
 ------------------------------------------------------------
+Version of the conda
+conda --version
+------------------------------------------------------------
+Channel is the place where the conda can search for packages:
+Displays the channels and their priority
+conda config --get channels
+------------------------------------------------------------
+To search for all the channels for a package_name
+conda search -f package_name
+------------------------------------------------------------
+To install a package from a channel mention the name of the channel with flag -c
+conda install -c channel_name package_name
+------------------------------------------------------------
+To update all the packages of conda
+conda update
+------------------------------------------------------------
+If a package is not available from the conda try pip
+pip install pacakge_name
+------------------------------------------------------------
+If you donot want to update some of the packages:
+1. Create a file named pinned inside the conda-meta directory
+2. Mention the name of the package with version to be installed.
+
+------------------------------------------------------------------------------------------------------------------------
+References:
+1. https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
